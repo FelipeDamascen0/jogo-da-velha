@@ -1,0 +1,26 @@
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first-line, .second-line, .third-line{
+  display: flex;
+  padding: 10px;
+}
+
+div{
+  padding: 10px;
+}
+
+.first-line, .second-line{
+  border-bottom: 1px solid #000;
+}
+
+.middle{
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
